@@ -13,8 +13,8 @@ use app\model\Foo;
 use Controllers\HomeController;
 
 /**
- * 裤子查询系统首页
- * Class IndexController
+ * dphp  demo
+ * Class DemoController
  * @package app\controller
  */
 class DemoController extends HomeController
