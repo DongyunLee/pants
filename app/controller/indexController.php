@@ -12,9 +12,15 @@ namespace app\controller;
 use app\model\Foo;
 use Controllers\HomeController;
 
+/**
+ * 裤子查询系统首页
+ * Class IndexController
+ * @package app\controller
+ */
 class IndexController extends HomeController
 {
     /**
+     * 主方法
      * @throws \ErrorException
      */
     public function actionIndex()

@@ -6,3 +6,5 @@ public/caches/
 composer.lock
 config/db.php
 .user.ini
+node_modules/
+package-lock.json
