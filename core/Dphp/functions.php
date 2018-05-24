@@ -23,7 +23,7 @@ function dump($params)
         var_dump($params);
     }
     echo '</div>';
-    echo "<hr/>";
+    die("<hr/>");
 }
 
 /**

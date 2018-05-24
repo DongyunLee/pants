@@ -74,6 +74,7 @@ switch ($routeInfo[0]) {
             'class' => substr($handler,0,strpos(strtolower($handler),'controller')),
             'action'=> strtolower(substr($action,6))
         ];
+        dump($_SESSION['route']);
         // ... 调用$handler和$vars
         call_user_func_array([
             new $class,
