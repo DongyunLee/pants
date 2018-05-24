@@ -19,7 +19,8 @@ use Controllers\HomeController;
  */
 class DemoController extends HomeController
 {
-    /**
+	
+	/**
      * 主方法
      * @throws \ErrorException
      */
