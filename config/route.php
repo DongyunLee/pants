@@ -9,7 +9,7 @@
 
 return [
     [
-        ['GET', '/', 'indexController'],
+        ['GET', '/', 'demoController'],
         // 指向adminController
         ['GET','/admin',''],
         ['GET','/user[/{action}]','userController'],

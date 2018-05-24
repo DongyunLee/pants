@@ -17,7 +17,7 @@ use Controllers\HomeController;
  * Class IndexController
  * @package app\controller
  */
-class IndexController extends HomeController
+class DemoController extends HomeController
 {
     /**
      * 主方法
